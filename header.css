@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alkatra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    font-family:'Abel',sans-serif;
+    font-family: 'Alkatra','cursive';
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: #111011;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 100px;
+    margin-bottom: 20px;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color:#fefefe;
+}
+.ad{
+    display:none;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul a{
+    display:block;
+    color:#fefefe;
+    font-size:20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.nav-bar ul li a:hover{
+    color:#111011;
+    background: #fefefe;
+}
+.nav-bar ul li a.active{
+    color:#111011;
+    background: #fefefe;
+}
